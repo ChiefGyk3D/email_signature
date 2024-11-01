@@ -1,0 +1,79 @@
+<table align="left" style="font-family: Arial, sans-serif; max-width: 600px; width: 100%; margin-left: 0; color-scheme: light dark;">
+    <style>
+      /* Profile Image Resizing for Mobile */
+      .profile-image {
+          width: 80px;
+          height: 80px;
+          max-width: 80px;
+      }
+      @media (max-width: 480px) {
+          .profile-image {
+              width: 60px;
+              height: 60px;
+          }
+      }
+    </style>
+    <tr>
+      <td style="padding: 10px; text-align: center;">
+        <!-- Profile Image -->
+        <img src="https://yt3.googleusercontent.com/O1JgP0tSZi2KdMByPnwD2aiN-zgW6oTrwIF7xlMTa6G6XXj0ZhTOO8K1XOehwmQLG4fHydGF8rA=s900-c-k-c0x00ffffff-no-rj" 
+             alt="ChiefGyk3D Logo" 
+             class="profile-image" 
+             style="border-radius: 50%;" />
+      </td>
+      <td style="padding: 10px; text-align: left;">
+        <!-- Signature Text -->
+        <p style="margin: 0; font-size: 1.2em;"><strong>Happy Hacking,</strong></p>
+        <p style="margin: 0; font-size: 1em;">Moshe aka ChiefGyk3D</p>
+        
+        <!-- Divider and Apology Message -->
+        <hr style="border: none; border-top: 1px solid #ddd; margin: 8px 0;">
+        <p style="margin: 0; font-size: 0.85em; font-style: italic; color: #666;">
+          Sent from Mobile, apologies for any typos
+        </p>
+        
+        <!-- Social Links with Icons -->
+        <p style="margin-top: 8px; font-size: 0.9em; display: flex; flex-wrap: wrap; gap: 5px;">
+          <a href="https://www.youtube.com/channel/UCvFY4KyqVBuYd7JAl3NRyiQ" style="text-decoration: none; display: flex; align-items: center;">
+            <img src="https://img.icons8.com/color/20/000000/youtube-play.png" alt="YouTube Icon" style="vertical-align: middle;" />&nbsp; YouTube
+          </a> &nbsp;|&nbsp;
+          <a href="https://twitch.tv/chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
+            <img src="https://img.icons8.com/color/20/000000/twitch.png" alt="Twitch Icon" style="vertical-align: middle;" />&nbsp; Twitch
+          </a> &nbsp;|&nbsp;
+          <a href="https://tiktok.com/@chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
+            <img src="https://img.icons8.com/color/20/000000/tiktok.png" alt="TikTok Icon" style="vertical-align: middle;" />&nbsp; Tiktok
+          </a> &nbsp;|&nbsp;
+          <a href="https://social.chiefgyk3d.com/@chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
+            <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/20/external-mastodon-is-an-online-self-hosted-social-media-and-social-networking-service-logo-color-tal-revivo.png" alt="Mastodon Icon" style="vertical-align: middle;" />&nbsp; Mastodon
+          </a> &nbsp;|&nbsp;
+          <a href="https://bsky.app/profile/chiefgyk3d.com" style="text-decoration: none; display: flex; align-items: center;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/1024px-Bluesky_Logo.svg.png" alt="Bluesky Icon" style="width: 20px; height: 20px; vertical-align: middle;" />&nbsp; Bluesky
+          </a> &nbsp;|&nbsp;
+          <a href="https://www.threads.net/@chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
+            <img src="https://img.icons8.com/pulsar-line/20/threads.png" alt="Threads Icon" style="vertical-align: middle;" />&nbsp; Threads
+          </a> &nbsp;|&nbsp;
+          <a href="https://github.com/chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
+            <img src="https://img.icons8.com/material-outlined/20/000000/github.png" alt="GitHub Icon" style="vertical-align: middle;" />&nbsp; GitHub
+          </a> &nbsp;|&nbsp;
+          <a href="https://discord.chiefgyk3d.com" style="text-decoration: none; display: flex; align-items: center;">
+            <img src="https://img.icons8.com/color/20/000000/discord-logo.png" alt="Discord Icon" style="vertical-align: middle;" />&nbsp; Discord
+          </a> &nbsp;|&nbsp;
+          <a href="https://matrix.to/#/#renegade-penguin:chiefgyk3d.com" style="text-decoration: none; display: flex; align-items: center;">
+            [Matrix]
+          </a>
+        </p>
+        
+        <!-- Additional Links -->
+        <p style="margin: 0; font-size: 0.9em; margin-top: 10px;">
+          <a href="https://links.chiefgyk3d.com/socials" style="text-decoration: none;">
+            <strong>Discover More Links</strong>
+          </a>
+        </p>
+        <p style="margin: 0; font-size: 0.9em; margin-top: 5px;">
+          <a href="https://links.chiefgyk3d.com/mediakit" style="text-decoration: none;">
+            <strong>Media Kit</strong>
+          </a>
+        </p>
+      </td>
+    </tr>
+  </table>
