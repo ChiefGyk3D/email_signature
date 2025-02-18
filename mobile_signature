@@ -34,33 +34,51 @@
         
         <!-- Social Links with Icons -->
         <p style="margin-top: 8px; font-size: 0.9em; display: flex; flex-wrap: wrap; gap: 5px;">
-          <a href="https://www.youtube.com/channel/UCvFY4KyqVBuYd7JAl3NRyiQ" style="text-decoration: none; display: flex; align-items: center;">
-            <img src="https://img.icons8.com/color/20/000000/youtube-play.png" alt="YouTube Icon" style="vertical-align: middle;" />&nbsp; YouTube
-          </a> &nbsp;|&nbsp;
-          <a href="https://twitch.tv/chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
-            <img src="https://img.icons8.com/color/20/000000/twitch.png" alt="Twitch Icon" style="vertical-align: middle;" />&nbsp; Twitch
-          </a> &nbsp;|&nbsp;
-          <a href="https://tiktok.com/@chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
-            <img src="https://img.icons8.com/color/20/000000/tiktok.png" alt="TikTok Icon" style="vertical-align: middle;" />&nbsp; Tiktok
-          </a> &nbsp;|&nbsp;
-          <a href="https://social.chiefgyk3d.com/@chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
-            <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/20/external-mastodon-is-an-online-self-hosted-social-media-and-social-networking-service-logo-color-tal-revivo.png" alt="Mastodon Icon" style="vertical-align: middle;" />&nbsp; Mastodon
-          </a> &nbsp;|&nbsp;
-          <a href="https://bsky.app/profile/chiefgyk3d.com" style="text-decoration: none; display: flex; align-items: center;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/1024px-Bluesky_Logo.svg.png" alt="Bluesky Icon" style="width: 20px; height: 20px; vertical-align: middle;" />&nbsp; Bluesky
-          </a> &nbsp;|&nbsp;
-          <a href="https://www.threads.net/@chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
-            <img src="https://img.icons8.com/pulsar-line/20/threads.png" alt="Threads Icon" style="vertical-align: middle;" />&nbsp; Threads
-          </a> &nbsp;|&nbsp;
-          <a href="https://github.com/chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
-            <img src="https://img.icons8.com/material-outlined/20/000000/github.png" alt="GitHub Icon" style="vertical-align: middle;" />&nbsp; GitHub
-          </a> &nbsp;|&nbsp;
-          <a href="https://discord.chiefgyk3d.com" style="text-decoration: none; display: flex; align-items: center;">
-            <img src="https://img.icons8.com/color/20/000000/discord-logo.png" alt="Discord Icon" style="vertical-align: middle;" />&nbsp; Discord
-          </a> &nbsp;|&nbsp;
-          <a href="https://matrix.to/#/#renegade-penguin:chiefgyk3d.com" style="text-decoration: none; display: flex; align-items: center;">
-            [Matrix]
-          </a>
+          <span style="white-space: nowrap;">
+            <a href="https://www.youtube.com/channel/UCvFY4KyqVBuYd7JAl3NRyiQ" style="text-decoration: none; display: flex; align-items: center;">
+              <img src="https://img.icons8.com/color/20/000000/youtube-play.png" alt="YouTube Icon" width="20" height="20" />&nbsp; YouTube
+            </a>
+          </span> &nbsp;|&nbsp;
+          <span style="white-space: nowrap;">
+            <a href="https://twitch.tv/chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
+              <img src="https://img.icons8.com/color/20/000000/twitch.png" alt="Twitch Icon" width="20" height="20" />&nbsp; Twitch
+            </a>
+          </span> &nbsp;|&nbsp;
+          <span style="white-space: nowrap;">
+            <a href="https://tiktok.com/@chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
+              <img src="https://img.icons8.com/color/20/000000/tiktok.png" alt="TikTok Icon" width="20" height="20" />&nbsp; TikTok
+            </a>
+          </span> &nbsp;|&nbsp;
+          <span style="white-space: nowrap;">
+            <a href="https://social.chiefgyk3d.com/@chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
+              <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/20/external-mastodon-is-an-online-self-hosted-social-media-and-social-networking-service-logo-color-tal-revivo.png" alt="Mastodon Icon" width="20" height="20" />&nbsp; Mastodon
+            </a>
+          </span> &nbsp;|&nbsp;
+          <span style="white-space: nowrap;">
+            <a href="https://bsky.app/profile/chiefgyk3d.com" style="text-decoration: none; display: flex; align-items: center;">
+              <img src="https://img.icons8.com/fluency/20/bluesky.png" alt="Bluesky Icon" width="20" height="20" />&nbsp; Bluesky
+            </a>
+          </span> &nbsp;|&nbsp;
+          <span style="white-space: nowrap;">
+            <a href="https://www.threads.net/@chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
+              <img src="https://img.icons8.com/pulsar-line/20/threads.png" alt="Threads Icon" width="20" height="20" />&nbsp; Threads
+            </a>
+          </span> &nbsp;|&nbsp;
+          <span style="white-space: nowrap;">
+            <a href="https://github.com/chiefgyk3d" style="text-decoration: none; display: flex; align-items: center;">
+              <img src="https://img.icons8.com/material-outlined/20/000000/github.png" alt="GitHub Icon" width="20" height="20" />&nbsp; GitHub
+            </a>
+          </span> &nbsp;|&nbsp;
+          <span style="white-space: nowrap;">
+            <a href="https://discord.chiefgyk3d.com" style="text-decoration: none; display: flex; align-items: center;">
+              <img src="https://img.icons8.com/color/20/000000/discord-logo.png" alt="Discord Icon" width="20" height="20" />&nbsp; Discord
+            </a>
+          </span> &nbsp;|&nbsp;
+          <span style="white-space: nowrap;">
+            <a href="https://matrix.to/#/#renegade-penguin:chiefgyk3d.com" style="text-decoration: none; display: flex; align-items: center;">
+              [Matrix]
+            </a>
+          </span>
         </p>
         
         <!-- Additional Links -->
@@ -76,4 +94,4 @@
         </p>
       </td>
     </tr>
-  </table>
+</table>
