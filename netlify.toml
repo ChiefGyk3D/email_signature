@@ -14,7 +14,7 @@
 [[redirects]]
   # Make mobile signature accessible at /mobile
   from = "/mobile"
-  to = "/mobile_signature"
+  to = "/mobile_signature.html"
   status = 200
 
 [[headers]]
