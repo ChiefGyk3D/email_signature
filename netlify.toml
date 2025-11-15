@@ -1,0 +1,36 @@
+[build]
+  # No build command needed - we're serving static HTML
+  publish = "."
+  
+[build.environment]
+  # No build environment needed
+
+[[redirects]]
+  # Redirect root to signature.html
+  from = "/"
+  to = "/signature.html"
+  status = 200
+
+[[redirects]]
+  # Make mobile signature accessible at /mobile
+  from = "/mobile"
+  to = "/mobile_signature"
+  status = 200
+
+[[headers]]
+  # Cache icons for 1 year
+  for = "/icons/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  # Cache HTML files for 1 hour
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  # Allow CORS for icons (in case they're embedded elsewhere)
+  for = "/icons/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
