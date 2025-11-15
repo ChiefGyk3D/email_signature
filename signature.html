@@ -1,12 +1,32 @@
-<table style="font-family: Arial, sans-serif; max-width: 600px; width: 100%; border-collapse: collapse; margin: 0; padding: 0; color: #333; background-color: transparent;">
+<style>
+  /* Responsive styles for email signature */
+  @media screen and (max-width: 480px) {
+    .signature-table {
+      max-width: 100% !important;
+    }
+    .profile-img {
+      width: 60px !important;
+      height: 60px !important;
+    }
+    .signature-content {
+      padding: 5px !important;
+    }
+    .social-links {
+      font-size: 0.85em !important;
+      text-align: center !important;
+    }
+  }
+</style>
+<table class="signature-table" style="font-family: Arial, sans-serif; max-width: 600px; width: 100%; border-collapse: collapse; margin: 0; padding: 0; color: #333; background-color: transparent;">
     <tr>
       <td style="padding: 10px; text-align: center; vertical-align: top;">
         <!-- Profile Image -->
-        <img src="https://cdn.masto.host/socialchiefgyk3dcom/accounts/avatars/109/268/597/379/110/484/original/2a1dbefce11b4c4d.png" 
+        <img class="profile-img"
+             src="https://cdn.masto.host/socialchiefgyk3dcom/accounts/avatars/109/268/597/379/110/484/original/2a1dbefce11b4c4d.png" 
              alt="ChiefGyk3D Logo" 
-             style="border-radius: 50%; width: 80px; height: 80px;" />
+             style="border-radius: 50%; width: 80px; height: 80px; display: block; margin: 0 auto;" />
       </td>
-      <td style="padding: 10px; text-align: left; vertical-align: top;">
+      <td class="signature-content" style="padding: 10px; text-align: left; vertical-align: top;">
         <!-- Signature Text -->
         <p style="margin: 0; font-size: 1.2em; font-weight: bold; color: #000000; background-color: transparent;">
           Happy Hacking,
@@ -16,53 +36,74 @@
         </p>
         
         <!-- Social Links with Icons -->
-        <p style="margin: 8px 0 0; font-size: 0.9em; color: #000000; line-height: 1.5; background-color: transparent;">
-          <span style="white-space: nowrap;">
-            <a href="https://www.youtube.com/channel/UCvFY4KyqVBuYd7JAl3NRyiQ" style="text-decoration: none; color: #000000;">
-              <img src="https://img.icons8.com/color/20/000000/youtube-play.png" alt="YouTube Icon" width="20" height="20" /> YouTube
+        <div class="social-links" style="margin: 8px 0 0; font-size: 0.9em; color: #000000; line-height: 2; background-color: transparent; text-align: left;">
+          <span style="white-space: nowrap; display: inline-block; margin: 0 3px;">
+            <a href="https://www.youtube.com/channel/UCvFY4KyqVBuYd7JAl3NRyiQ" style="text-decoration: none; color: #000000; display: inline-flex; align-items: center; vertical-align: middle;">
+              <img src="https://img.icons8.com/color/20/000000/youtube-play.png" alt="YouTube Icon" width="20" height="20" style="vertical-align: middle; margin-right: 3px;" /> YouTube
             </a>
-          </span> |
-          <span style="white-space: nowrap;">
-            <a href="https://twitch.tv/chiefgyk3d" style="text-decoration: none; color: #000000;">
-              <img src="https://img.icons8.com/color/20/000000/twitch.png" alt="Twitch Icon" width="20" height="20" /> Twitch
-            </a>
-          </span> |
-          <span style="white-space: nowrap;">
-            <a href="https://tiktok.com/@chiefgyk3d" style="text-decoration: none; color: #000000;">
-              <img src="https://img.icons8.com/color/20/000000/tiktok.png" alt="TikTok Icon" width="20" height="20" /> TikTok
-            </a>
-          </span> |
-          <span style="white-space: nowrap;">
-            <a href="https://social.chiefgyk3d.com/@chiefgyk3d" style="text-decoration: none; color: #000000;">
-              <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/20/external-mastodon-is-an-online-self-hosted-social-media-and-social-networking-service-logo-color-tal-revivo.png" alt="Mastodon Icon" width="20" height="20" /> Mastodon
-            </a>
-          </span> |
-          <span style="white-space: nowrap;">
-            <a href="https://bsky.app/profile/chiefgyk3d.com" style="text-decoration: none; color: #000000;">
-              <img src="https://img.icons8.com/fluency/20/bluesky.png" alt="Bluesky Icon" width="20" height="20" /> Bluesky
-            </a>
-          </span> |
-          <span style="white-space: nowrap;">
-            <a href="https://github.com/chiefgyk3d" style="text-decoration: none; color: #000000;">
-              <img src="https://img.icons8.com/material-outlined/20/000000/github.png" alt="GitHub Icon" width="20" height="20" /> GitHub
-            </a>
-          </span> |
-          <span style="white-space: nowrap;">
-            <a href="https://discord.chiefgyk3d.com" style="text-decoration: none; color: #000000;">
-              <img src="https://img.icons8.com/color/20/000000/discord-logo.png" alt="Discord Icon" width="20" height="20" /> Discord
-            </a>
-          </span> |
-          <span style="white-space: nowrap;">
-            <a href="https://matrix.to/#/#renegade-penguin:chiefgyk3d.com" style="text-decoration: none; color: #000000;">[Matrix]</a>
           </span>
-        </p>
+          <span style="color: #ccc; margin: 0 2px;">|</span>
+          <span style="white-space: nowrap; display: inline-block; margin: 0 3px;">
+            <a href="https://twitch.tv/chiefgyk3d" style="text-decoration: none; color: #000000; display: inline-flex; align-items: center; vertical-align: middle;">
+              <img src="https://img.icons8.com/color/20/000000/twitch.png" alt="Twitch Icon" width="20" height="20" style="vertical-align: middle; margin-right: 3px;" /> Twitch
+            </a>
+          </span>
+          <span style="color: #ccc; margin: 0 2px;">|</span>
+          <span style="white-space: nowrap; display: inline-block; margin: 0 3px;">
+            <a href="https://tiktok.com/@chiefgyk3d" style="text-decoration: none; color: #000000; display: inline-flex; align-items: center; vertical-align: middle;">
+              <img src="https://img.icons8.com/color/20/000000/tiktok.png" alt="TikTok Icon" width="20" height="20" style="vertical-align: middle; margin-right: 3px;" /> TikTok
+            </a>
+          </span>
+          <span style="color: #ccc; margin: 0 2px;">|</span>
+          <span style="white-space: nowrap; display: inline-block; margin: 0 3px;">
+            <a href="https://kick.com/chiefgyk3d" style="text-decoration: none; color: #000000; display: inline-flex; align-items: center; vertical-align: middle;">
+              <img src="https://raw.githubusercontent.com/ChiefGyk3D/email_signature/main/icons/kick.png" alt="Kick Icon" width="20" height="20" style="vertical-align: middle; margin-right: 3px;" /> Kick
+            </a>
+          </span>
+          <span style="color: #ccc; margin: 0 2px;">|</span>
+          <span style="white-space: nowrap; display: inline-block; margin: 0 3px;">
+            <a href="https://social.chiefgyk3d.com/@chiefgyk3d" style="text-decoration: none; color: #000000; display: inline-flex; align-items: center; vertical-align: middle;">
+              <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/20/external-mastodon-is-an-online-self-hosted-social-media-and-social-networking-service-logo-color-tal-revivo.png" alt="Mastodon Icon" width="20" height="20" style="vertical-align: middle; margin-right: 3px;" /> Mastodon
+            </a>
+          </span>
+          <span style="color: #ccc; margin: 0 2px;">|</span>
+          <span style="white-space: nowrap; display: inline-block; margin: 0 3px;">
+            <a href="https://bsky.app/profile/chiefgyk3d.com" style="text-decoration: none; color: #000000; display: inline-flex; align-items: center; vertical-align: middle;">
+              <img src="https://img.icons8.com/fluency/20/bluesky.png" alt="Bluesky Icon" width="20" height="20" style="vertical-align: middle; margin-right: 3px;" /> Bluesky
+            </a>
+          </span>
+          <span style="color: #ccc; margin: 0 2px;">|</span>
+          <span style="white-space: nowrap; display: inline-block; margin: 0 3px;">
+            <a href="https://www.threads.net/@chiefgyk3d" style="text-decoration: none; color: #000000; display: inline-flex; align-items: center; vertical-align: middle;">
+              <img src="https://img.icons8.com/pulsar-line/20/threads.png" alt="Threads Icon" width="20" height="20" style="vertical-align: middle; margin-right: 3px;" /> Threads
+            </a>
+          </span>
+          <span style="color: #ccc; margin: 0 2px;">|</span>
+          <span style="white-space: nowrap; display: inline-block; margin: 0 3px;">
+            <a href="https://github.com/chiefgyk3d" style="text-decoration: none; color: #000000; display: inline-flex; align-items: center; vertical-align: middle;">
+              <img src="https://img.icons8.com/material-outlined/20/000000/github.png" alt="GitHub Icon" width="20" height="20" style="vertical-align: middle; margin-right: 3px;" /> GitHub
+            </a>
+          </span>
+          <span style="color: #ccc; margin: 0 2px;">|</span>
+          <span style="white-space: nowrap; display: inline-block; margin: 0 3px;">
+            <a href="https://discord.chiefgyk3d.com" style="text-decoration: none; color: #000000; display: inline-flex; align-items: center; vertical-align: middle;">
+              <img src="https://img.icons8.com/color/20/000000/discord-logo.png" alt="Discord Icon" width="20" height="20" style="vertical-align: middle; margin-right: 3px;" /> Discord
+            </a>
+          </span>
+          <span style="color: #ccc; margin: 0 2px;">|</span>
+          <span style="white-space: nowrap; display: inline-block; margin: 0 3px;">
+            <a href="https://matrix.to/#/#renegade-penguin:chiefgyk3d.com" style="text-decoration: none; color: #000000; display: inline-flex; align-items: center; vertical-align: middle;">
+              <img src="https://img.icons8.com/color/20/matrix-logo.png" alt="Matrix Icon" width="20" height="20" style="vertical-align: middle; margin-right: 3px;" /> Matrix
+            </a>
+          </span>
+        </div>
         
         <!-- Additional Links -->
         <p style="margin: 10px 0 0; font-size: 0.9em; color: #000000;">
-          <a href="https://links.chiefgyk3d.com/socials" style="text-decoration: none; color: #000000; font-weight: bold;">Discover More Links</a>
+          <a href="https://links.chiefgyk3d.com/socials" style="text-decoration: none; color: #000000; font-weight: bold;">More Ways to Connect</a>
         </p>
         <p style="margin: 5px 0 0; font-size: 0.9em; color: #000000;">
-          <a href="https://links.chiefgyk3d.com/mediakit" style="text-decoration: none; color: #000000; font-weight: bold;">Media Kit</a>
+          <a href="https://links.chiefgyk3d.com/mediakit" style="text-decoration: none; color: #000000; font-weight: bold;">Collaboration Info</a>
         </p>
       </td>
     </tr>
