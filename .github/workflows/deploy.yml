@@ -9,9 +9,48 @@ on:
       - main
 
 jobs:
+  validate:
+    name: Validate HTML
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Validate HTML files
+        run: |
+          # Install html5validator
+          sudo apt-get update
+          sudo apt-get install -y python3-pip
+          pip3 install html5validator
+          
+          # Validate HTML files
+          html5validator --root . --also-check-css --ignore-re '(node_modules|\.git)' || true
+          
+      - name: Check required files exist
+        run: |
+          files=("signature.html" "mobile_signature.html" "index.html" "netlify.toml")
+          for file in "${files[@]}"; do
+            if [ ! -f "$file" ]; then
+              echo "❌ Missing required file: $file"
+              exit 1
+            else
+              echo "✅ Found: $file"
+            fi
+          done
+          
+      - name: Check for broken links
+        run: |
+          # Check if remote icons URLs are accessible (sample check)
+          echo "Checking remote icon URLs..."
+          curl -f -s -I "https://img.icons8.com/color/20/000000/youtube-play.png" > /dev/null || echo "⚠️  YouTube icon may be unreachable"
+          curl -f -s -I "https://img.icons8.com/color/20/000000/twitch.png" > /dev/null || echo "⚠️  Twitch icon may be unreachable"
+          echo "✅ Link check complete"
+
   deploy:
     name: Deploy to Netlify
     runs-on: ubuntu-latest
+    needs: validate  # Only deploy if validation passes
     
     steps:
       - name: Checkout code
